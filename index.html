@@ -404,5 +404,29 @@
         <p>Created by Yogesh Chandra Tripathi</p>
       </div>
     </div>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDuMBJTueeNLzlWu0JSpsZADt2vyIGJPoQ",
+          authDomain: "foodie-dash-website.firebaseapp.com",
+          projectId: "foodie-dash-website",
+          storageBucket: "foodie-dash-website.appspot.com",
+          messagingSenderId: "107888689246",
+          appId: "1:107888689246:web:8b8706ac6b96d4b36af4cf",
+          measurementId: "G-VPXRZMWV38"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
   </body>
 </html>
